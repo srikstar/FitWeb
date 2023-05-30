@@ -1,0 +1,235 @@
+body
+{
+    margin: 0;
+    background-image: url(/css/2024142.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    opacity: 1;
+}
+
+/*------------------------------------------------------ NAV BAR ------------------------------------------------------    */
+
+.navbar
+{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(180, 180, 180, 0.438);
+    
+}
+
+.header
+{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head
+{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 80, 255);
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.web
+{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.help
+{
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(0, 80, 255);
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: text-decoration 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+
+.help:hover
+{
+    border-bottom: 2px solid black;
+}
+
+/*------------------------------------------------------ MAIN ------------------------------------------------------    */
+
+
+.main
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instructor
+{
+    width: 40%;
+    height: 60vh;
+    margin: 115px 50px 113px 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px 1px rgb(85, 85, 85);
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.i
+{
+    align-items: flex-start;
+    font-size: 3rem;
+    font-family: var(--font-stack-heading-serif);
+    font-weight: 900;
+    color: #000;
+}
+
+.clicker
+{
+    margin-top: 70px;
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.links
+{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.div
+{
+    align-items: flex-start;
+    font-size: 3rem;
+    font-family: var(--font-stack-heading-serif);
+    font-weight: 900;
+    position: relative;
+    bottom: 50px;
+}
+
+.info
+{
+    font-size: 1.5rem;
+    font-family: var(--font-stack-heading-serif);
+    margin-right: 50px;
+}
+
+.users
+{
+    width: 40%;
+    height: 60vh;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px 1px rgb(85, 85, 85);
+}
+
+#sub
+{
+    background-color: transparent;
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    top: 80px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.5rem;
+}
+#subb
+{
+    background-color: transparent;
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    top: 80px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.link
+{
+    position: relative;
+    top:5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+/*------------------------------------------------------ FOOTER------------------------------------------------------    */
+
+
+.footer
+{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(156, 156, 156, 0.438);
+}
+
+.foot
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover
+{
+    text-decoration: none;
+    color: rgb(0, 80, 255);
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.hover:hover
+{
+    border-bottom: 2px solid black;
+}
+
+.foot,a
+{
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444444;
+}
+
+/*----------------------------------------------------------------------------*/
